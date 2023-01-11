@@ -1,0 +1,91 @@
+ <header>
+      <h1>Tour <span id="green">Nig</span>eria</h1>
+    </header>
+    <div class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div>
+    <div class="wel">
+        <h2>
+          Welcome To Tour Nigeria
+        </h2>
+      </div>
+      <div class="first">
+        <p>
+          Are you tired of the everyday hustle and bustle and you just need to take a break from work, school, or want a family vaction with families and friends, well Tour Nigeria is here for you, just select your destination or any place of your choice in nigeria and leave the rest for us to handle, 
+        </p>
+        <ol>
+          <li>Flight booking</li>
+          <li>Transportation</li>
+          <li>Accomodation</li>
+          <li>A Tour Guide</li>
+          <li>A Chauffeur</li>
+          <li>And all other care..</li>
+        </ol>
+        <p>
+        
+          Welcome to Nigeria the country with the largest population in africa, 
+          a home to over 3 billion inhabitants, the Giant of Africa,
+          with over 500 diverse ethnic group, rich historic culture, 
+          where nature meets mordenization, join us as we take you on a
+           tour around the 36 states of Nigeria,
+           taking you to the finest, historic and intresting places in this country.
+           living you with an expirence never to forget.
+        </p>
+
+        
+    </div>
+      <h3>States in Nigeria</h3>
+    <div class="second">
+      <Table>
+        <tr>
+          <td>
+            <img src="#" alt="Abuja" title="Abuja">
+          </td>
+          <td> The federal capital teritory, the home to the presidential seat if the country,
+             with very beautiful landscape, that holds places like Aso rock,
+              Zuma rock, Jabi lake and other exciting cites
+          </td>
+          <td>
+            <a href="#">click to explore more about Abuja</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="#" alt="Lagos">
+          </td>
+          <td> 
+            Lagos, one of the biggest cities in africa,
+             the entertainment hub of africa, you would never find a dull moment here, 
+             the hustling and bustling of ikorodu, down to the serene and calm 
+             environs of Lekki, Victoria island , Banana island, The home of 
+             Nigeria's biggest celebrities, come and expirience the night life of Eco Atlantic.
+             . They say there's no place like home but here in lagos, everywhere is home..
+          </td>
+          <td>
+            <a href="#">click to explore more about Lagos</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="#" alt="Kano">
+          </td>
+          <td> 
+            Kano, the northern nigeria, come and feel the warmth welcome from the arewa people,
+             their rich culture and foods are worth your time, the sunny season giving you the sahara vibes,
+             and the chilly hamartan season giving you the winter vibe. 
+          </td>
+          <td>
+            <a href="#">click to explore more about Kano</a>
+          </td>
+        </tr>
+      </Table>
+
+    </div>
+    <div class="circle">
+
+    </div>
