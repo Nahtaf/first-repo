@@ -72,23 +72,22 @@ h1{
   text-align: center;
   color: rgb(252, 253, 252);
   letter-spacing: 0.5px;
-  font-size: 50px;
+  font-size: 70px;
   margin-bottom: 150px;
-  
+  margin-top: 80px;
+  text-shadow: 4px 5px 6px black;
 }
-.sec p{
-  text-align: center;
-  color: rgb(244, 247, 244);
-  font-size: 20px;
-  padding: 40px 10px;
- overflow: auto;
-}
+
  .sec a {
   padding: 15px;
   border: 2px solid  green;
-  border-radius: 8px ;
+  border-radius: 18px ;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
+  color: rgb(5, 95, 13);
+  text-shadow: 2px 3px 5px goldenrod;
+  background-color: rgba(255, 255, 255, 0.493);
+
 
 }
 .sec a:hover{
@@ -96,10 +95,142 @@ h1{
   color: white;
   transition: 0.5s;
 }
+.third{
+  margin: 50px 0;
+
+}
+.third .left{
+  margin: 50px 5px 50px 50px;
+  float: left;
+  width: 70%;
+  background-image: url(2naija.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  height: 100vh;
+}
+.third .left:hover{
+  box-shadow: 0 0 22px 15px rgb(69, 82, 69);
+  transition: 0.5s;
+}
+.third .right .line{
+  float: right;
+  width: 20%;
+  margin: 30px 30px 10px 10px;
+  text-align: center;
+  background-color: green;
+  border-radius: 22px ;
+  color: #f9f9f9;
+  padding: 20px 0;
+  line-height: 22px;
+  font-size: 20px;
+  /* position: relative;
+  right: 80px;
+  top: 50px;
+  margin-left: -24px; */
+
+}
+
+.third p{
+  text-align: center;
+  color: rgb(243, 250, 243);
+  font-size: 20px;
+  padding: 200px 30px 50px 30px;
+  text-shadow: 0 0  24px rgb(44, 110, 31);
+ overflow: auto;
+ font-size: 28px;
+}
+.events{
+  background-color: rgb(31, 165, 31);
+  clear: both;
+  overflow: auto;
+}
+.events h4{
+  font-size: 30px;
+  color: #f9f9f9;
+  margin: 40px 0 40px -15px;
+  padding: 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: goldenrod;
+  width: 40%;
+  border-radius: 15px;
+ 
+}
+.a{
+  width: 50%;  
+}
+.a img{
+  border-radius: 35px;
+  float: left;
+  margin-left: 50px;
+  margin-bottom: 50px;
+
+}
+.a img:hover{
+ box-shadow:0 0 22px 15px rgb(69, 82, 69) ;
+}
+.pr{
+  float: right;
+  width: 35%;
+  color: green;
+  text-align: left;
+  position: relative;
+  left: -70px;
+  margin: 50px 0 ;
+  background-color: white;
+  padding: 20px 20px 50px 20px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-size: 20px;
+}
+.pr a{
+  text-decoration: none;
+  padding: 8px 10px;
+  font-size: 18;
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+.pr a:hover{
+  opacity: 0.8;
+  background-color: red;
+}
+.clr{
+  clear: both;
+}
+.fourth{
+  
+}
+.fourth .naija{
+  text-align: center;
+  font-size: 68px;
+  padding: 30px 0;
+  color: #f9f9f9;
+  text-shadow: 0 0 14px rgb(3, 37, 3);
+}
+.fourth p{
+  text-align: center;
+  padding: 30px 40px 20px 40px;
+  font-size: 20px;
+}
 
 
-
-
+footer{
+  background-color: green;
+  bottom: 0;
+  text-align: center;
+  color: #f9f9f9;
+  font-size: 14px;
+  padding: 20px 15px;
+}
+ #facebook{
+  width: 85px;
+  height: 100px;
+  background: url('social.png') -90px 0;
+}
 
 @media(max-width:800px){
   .first ul{
@@ -127,6 +258,17 @@ h1{
 
 .drop:hover .drop-cont {
     display: block;
+}
+.third .left{
+  float: none;
+  width: 90%;
+  margin: 30px 30px;
+}
+.third .right .line {
+  float: none;
+  margin: 20px 10px 20px 20px;
+  width: 90%;
+  position: static;
 }
 
 }
